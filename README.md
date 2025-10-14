@@ -65,12 +65,10 @@ This project is made using **[Godot Engine](https://godotengine.org/)**, with **
 📂 jellyfishs-conquest/
  ┣ 📂 assets/           # Art, sprites, backgrounds
  ┣ 📂 scenes/           # Godot scene files
- ┣ 📂 scripts/          # GDScript files for gameplay logic
- ┣ 📂 sounds/           # (optional) Sound & music assets
+ ┣ 📂 scripts/          # GDScript files for gameplay logic        
  ┣ 📜 project.godot     # Main Godot project file
  ┗ 📜 README.md
 ```
-
 ## 📄 License
 
 This project is released under the **MIT License** — feel free to learn from it, modify, or build upon it with credit.

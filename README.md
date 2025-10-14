@@ -49,8 +49,6 @@ This project is made using **[Godot Engine](https://godotengine.org/)**, with **
 
 ## 📸 Screenshots / Gameplay Preview
 
-*(Add your actual screenshots in the `assets/screenshots/` folder and update the image paths below.)*
-
 | Jellie exploring | Collecting sea pearls | Meeting Bellie |
 |------------------|-----------------------|----------------|
 | ![Gameplay 1](assets/Screenshots/exploring.png) | ![Gameplay 2](assets/Screenshots/collecting.png) | ![Gameplay 3](assets/Screenshots/bellie.png) |

@@ -1,0 +1,58 @@
+[gd_scene load_steps=9 format=3 uid="uid://cdwupfvo8q52u"]
+
+[ext_resource type="Script" uid="uid://b6jvr1fuhdduq" path="res://scenes/marble.gd" id="1_bj782"]
+[ext_resource type="Texture2D" uid="uid://c1thvr2cklg1l" path="res://assets/character/seamarble.png" id="1_il0lc"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bj782"]
+atlas = ExtResource("1_il0lc")
+region = Rect2(0, 0, 26, 31)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jmcsv"]
+atlas = ExtResource("1_il0lc")
+region = Rect2(26, 0, 26, 31)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q8mev"]
+atlas = ExtResource("1_il0lc")
+region = Rect2(52, 0, 26, 31)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rym2u"]
+atlas = ExtResource("1_il0lc")
+region = Rect2(78, 0, 26, 31)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_btaim"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bj782")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jmcsv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q8mev")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rym2u")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_jjerp"]
+radius = 6.08276
+
+[node name="Marble" type="Area2D"]
+collision_mask = 2
+script = ExtResource("1_bj782")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_btaim")
+autoplay = "default"
+frame_progress = 0.0901155
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, 1)
+shape = SubResource("CircleShape2D_jjerp")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

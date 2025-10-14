@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://5hl5jvr6rviv"]
+
+[ext_resource type="Texture2D" uid="uid://6e3r0dagncfc" path="res://assets/character/starfish.png" id="1_mi635"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_s8bxr"]
+radius = 5.38516
+
+[node name="Platform" type="AnimatableBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_mi635")
+region_enabled = true
+region_rect = Rect2(6, 10.5, 27, 23)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_s8bxr")
+one_way_collision = true

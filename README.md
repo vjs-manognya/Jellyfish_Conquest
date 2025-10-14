@@ -10,7 +10,7 @@ This project is made using **[Godot Engine](https://godotengine.org/)**, with **
 
 - Play as **Jellie**, a cute jellyfish on a quest to meet Bellie.  
 - **Collect sea pearls** scattered through the ocean.  
-- **Avoid obstacles and fishes** — some move unpredictably!  
+- **Avoid obstacles and fishes**, some move unpredictably!  
 - Reach the **end of the level** to complete Jellie’s journey.
 
 ---
@@ -70,18 +70,6 @@ This project is made using **[Godot Engine](https://godotengine.org/)**, with **
  ┣ 📜 project.godot     # Main Godot project file
  ┗ 📜 README.md
 ```
-
----
-
-## ❤️ About the Developer
-
-Developed with love by **Manognya (a.k.a. Jellie’s creator)** 🪼✨  
-All pixel art and assets are original and created using Krita.  
-
-If you like this project, consider giving it a ⭐ on GitHub!  
-Feedback and contributions are always welcome.
-
----
 
 ## 📄 License
 

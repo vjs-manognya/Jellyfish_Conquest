@@ -53,7 +53,7 @@ This project is made using **[Godot Engine](https://godotengine.org/)**, with **
 
 | Jellie exploring | Collecting sea pearls | Meeting Bellie |
 |------------------|-----------------------|----------------|
-| ![Gameplay 1](assets/screenshots/screenshot1.png) | ![Gameplay 2](assets/screenshots/screenshot2.png) | ![Gameplay 3](assets/screenshots/screenshot3.png) |
+| ![Gameplay 1](assets/screenshots/exploring.png) | ![Gameplay 2](assets/screenshots/collecting.png) | ![Gameplay 3](assets/screenshots/bellie.png) |
 
 > 💡 Tip: You can also include `.gif` gameplay loops to show motion.
 

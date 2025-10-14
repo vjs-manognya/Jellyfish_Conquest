@@ -43,7 +43,7 @@ This project is made using **[Godot Engine](https://godotengine.org/)**, with **
    cd jellyfishs-conquest
    ```
 2. Open the project in **Godot** (`Project → Import → select the project.godot file`).
-3. Click **Run ▶️** to start playing!
+3. Start playing!
 
 ---
 
@@ -68,8 +68,7 @@ This project is made using **[Godot Engine](https://godotengine.org/)**, with **
 ```
 ## 📄 License
 
-This project is released under the **MIT License** — feel free to learn from it, modify, or build upon it with credit.
-
+This project is released under the **MIT License** 
 ---
 
 > “Even the tiniest jellyfish can light up the ocean.” 🌌

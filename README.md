@@ -1,6 +1,6 @@
 # 🪼 Jellyfish’s Conquest
 
-**Jellyfish’s Conquest** is a small, wholesome 2D platformer where a jellyfish named **Jellie** swims through an underwater world full of moving blocks, curious fishes, and shiny sea pearls — all to reunite with his beloved **Bellie** 💞.
+**Jellyfish’s Conquest** is a small, wholesome 2D platformer where a jellyfish named **Jellie** swims through an underwater world full of moving blocks, curious fishes, and shiny sea pearls — all to reunite with his beloved **Bellie** .
 
 This project is made using **[Godot Engine](https://godotengine.org/)**, with **pixel art** backgrounds and characters handcrafted in **[Krita](https://krita.org/)**.
 
@@ -53,7 +53,6 @@ This project is made using **[Godot Engine](https://godotengine.org/)**, with **
 |------------------|-----------------------|----------------|
 | ![Gameplay 1](assets/Screenshots/exploring.png) | ![Gameplay 2](assets/Screenshots/collecting.png) | ![Gameplay 3](assets/Screenshots/bellie.png) |
 
-> 💡 Tip: You can also include `.gif` gameplay loops to show motion.
 
 ---
 
